@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Operación de máquinas CNC para la fabricación de piezas',
+    descripcionCurso:
+      'El presente componente instruye sobre la operación de las máquinas CNC para la fabricación de piezas, comenzando por las diferentes funciones, los ejes y movimientos de los componentes de las máquinas CNC y la simulación de los programas transferidos o creados en la máquina y culmina con el mantenimiento que se requiere para un óptimo funcionamiento y vida útil de la maquinaria.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,14 +34,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Operación del mecanizado CNC',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Funciones en las máquinas CNC',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Ejes y movimientos de las máquinas CNC',
+            hash: 't_1_2',
           },
         ],
       },
@@ -48,14 +56,43 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Montaje de material y definición de cero de trabajo en las máquinas CNC',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Montaje y compensación de herramientas en la máquina CNC',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Transferencia de archivos a la máquina CNC',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Simulación en la máquina CNC',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Operación de la máquina CNC',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Mantenimiento de la máquina CNC',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +138,105 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Mecanizado CNC',
+      referencia:
+        'Serrano, D. Mejía,. Rodríguez, F. (2012).  <em>Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta</em>',
+      tipo: 'E-Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Seguridad Industrial',
+      referencia:
+        'Giraldo, A. (2019). <em>Seguridad Industrial. Ecoe Ediciones</em>.',
+      tipo: 'E-Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB126454 ',
+    },
+    {
+      tema: 'Herramientas',
+      referencia:
+        'Alarcon, M. (2018). <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
+      tipo: 'Norma',
+      link:
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/23297/mod_resource/content/1/presentaci%C3%B3n2.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Buril',
+      significado: 'herramienta de corte con la que trabaja un torno.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'CAD',
+      significado:
+        'del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador.',
+    },
+    {
+      termino: 'CAE',
+      significado:
+        'del inglés <em>Computer Aided Enginnering</em>, o ingeniería asistida por computador.',
+    },
+    {
+      termino: 'CAM',
+      significado:
+        'del inglés <em>Computer Aided Manufacture</em>, o fabricación asistida por computador.',
+    },
+    {
+      termino: 'CNC',
+      significado: 'control numérico computarizado.',
+    },
+    {
+      termino: 'Compensar herramienta',
+      significado:
+        'indicar a la máquina la posición del extremo, su radio y otras características.',
+    },
+    {
+      termino: 'Eje',
+      significado: 'línea imaginaria alrededor de la cual gira un elemento.',
+    },
+    {
+      termino: 'Fresa',
+      significado:
+        'herramienta de corte con la que trabaja una fresadora o un centro de mecanizado.',
+    },
+    {
+      termino: 'Máquina NC',
+      significado: 'se refiere a una máquina con control numérico.',
+    },
+    {
+      termino: 'PLM',
+      significado:
+        'del inglés <em>Product Life Cycle</em>, o gestión del ciclo de vida del producto.',
+    },
+    {
+      termino: 'Viruta',
+      significado: 'residuo del material que surge del corte o mecanizado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Alarcón, M. (2018) <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
+      link:
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/23297/mod_resource/content/1/presentaci%C3%B3n2.pdf ',
+    },
+    {
+      referencia:
+        'Autycom (2020). ¿<em>Qué es el control numérico computarizado o CNC</em>?',
+      link:
+        'https://www.autycom.com/que-es-el-control-numerico-computarizado-o-cnc/ ',
+    },
+    {
+      referencia:
+        'Inoxform (2022). <em>Descubre lo diferentes tipos de máquinas CNC</em>.',
+      link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
+    },
+    {
+      referencia:
+        'Serrano, D. Mejías, F. Rodríguez, F. (2012). <em>Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta</em>. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
     },
   ],
   creditos: {
