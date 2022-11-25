@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/835201-CF8-TC-FBRCCN_DGTL_MOBILIARIO/](https://sena-externos.github.io/835201-CF8-TC-FBRCCN_DGTL_MOBILIARIO/)
 
 #
 

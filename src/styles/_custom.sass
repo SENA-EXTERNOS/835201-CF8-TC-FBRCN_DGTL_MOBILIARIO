@@ -77,6 +77,9 @@
   .color2t
     background-color: #CFBDB0
 
+.cajon.color-acento-contenido
+  background-color: #cfbdb06c
+
 .cajon.color-acento-botones
   background-color: #e5f8e9
 
@@ -88,3 +91,82 @@
 
 .tarjeta--verde
   background-color: #e5f8e9
+
+//----------------------------------------
+.cajon--amarillo-1
+  background-color: #feca2ece
+
+.tabs-a__tab
+    background-color: #E8E8E8;
+
+.acordion
+  .ca-ab
+    background-color: #6CB5F0
+    &.acordion__activo
+      background-color: #F4EFEB
+  &__accion__btn--a
+    background-color: $color-acento-botones
+
+.tarjeta--gris
+    background-color: #feca2e0d;
+
+.cajon-x.abajo-derecha
+   &:before
+    top: 10%
+    left: 40%
+    right: 2%
+
+.bloque-texto-f__comillas i:first-of-type
+    margin-right: 15px
+    left: -2px
+    top: 10%
+
+.tabs-a__tab
+  background-color: #6CB5F0
+
+.clr-paleYellow
+  background-color: #48a4f036
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #EEE8E3 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+  
+  .crd--avatarHorizontal
+    position: relative
+    padding-right: 12rem
+    & > *
+      position: relative
+    h5 
+      color: #7F4FC7
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 0
+      width: calc( 100% - 60px)
+      height: 100%
+      background-color: #C5E5FE
+.cuadroverde
+  .fas
+    font-size: x-small

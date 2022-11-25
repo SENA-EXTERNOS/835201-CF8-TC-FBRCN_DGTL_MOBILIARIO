@@ -10,7 +10,7 @@
       h1 Introducción
     
     .row.justify-content-center.p-3.mb-5(style="background-color: #F6F6F6;border-radius: 31px;")              
-      .col-lg-1
+      .col-lg-1.col-sm-1
         figure
           img(src='@/assets/curso/temas/adorno1.png', alt='')
       .col-lg-6(style="display: flex;align-content: center;flex-wrap: wrap;")
