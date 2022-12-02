@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
-          .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img1.png')})`}")
+          .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img0.png')})`}")
           .bloque-texto-g__texto.p-4
             p(data-aos="fade-down").mb-0 Aunque al momento de adquirir una máquina de control numérico computarizado CNC generalmente se incluye el paquete de mantenimiento periódico preventivo, existen una serie de actividades y recomendaciones de los fabricantes con el fin de evitar que las máquinas CNC presenten fallas o averías en su funcionamiento. 
 

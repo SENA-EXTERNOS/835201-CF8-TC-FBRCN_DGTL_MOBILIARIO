@@ -116,7 +116,7 @@
       .col-lg-12
         P(data-aos="fade-right") Las funciones del torno de control numérico computarizado CNC están relacionadas con sus partes y componentes que se describen a continuación:
     
-    .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #e8e8e8")
+    .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #E2DEE2")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.mb-5  
           .col-md-6.mb-4.mb-md-0
@@ -170,14 +170,14 @@
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Puertas
-            p Un torno de #[b control numérico computarizado] CNC puede tener de acuerdo con su arquitectura o diseño varias puertas con la función de resguardar elementos limitando su acceso. Las principales son las puertas o guardas de seguridad, que usualmente son translucidas y deben estar cerradas solamente durante la operación del torno y las puertas o guardas de acceso a motores o a componentes que requieren acceso periódico por ejemplo para el mantenimiento; estas generalmente tienen elementos como llaves que limitan para que solamente sean abiertas por la persona indicada.
+            p Un torno de #[b control numérico computarizado] CNC puede tener de acuerdo con su arquitectura o diseño varias puertas con la función de resguardar elementos limitando su acceso. Las principales son las puertas o guardas de seguridad, que usualmente son translúcidas y deben estar cerradas solamente durante la operación del torno y las puertas o guardas de acceso a motores o a componentes que requieren acceso periódico por ejemplo para el mantenimiento; estas generalmente tienen elementos como llaves que limitan para que solamente sean abiertas por la persona indicada.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img14.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Luces indicadoras
-            p Generalmente están ubicadas en la parte superior de la máquina donde puedan observase desde cualquier punto de la empresa, su función es poder identificar el estado de la máquina desde una distancia dentro del taller, es decir, si la máquina está ejecutando un programa, si presenta alguna novedad en su funcionamiento o si está suspendida o parada.
+            p Generalmente están ubicadas en la parte superior de la máquina donde puedan observarse desde cualquier punto de la empresa, su función es poder identificar el estado de la máquina desde una distancia dentro del taller, es decir, si la máquina está ejecutando un programa, si presenta alguna novedad en su funcionamiento o si está suspendida o parada.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img15.png', alt='')
@@ -194,7 +194,7 @@
           img(src='@/assets/curso/temas/tema1/img16.svg', alt='')
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
+        .cajon.color-secundario.p-4.mb-4(style="background-color:#D4E1F2")(data-aos="fade-left")
           p Las funciones en una fresadora de control numérico computarizado CNC están destinadas a obtener una pieza generada por la revolución de las herramientas de corte llamadas fresas, que arrancan viruta al material fijado en una mesa mientras esta se desplaza de acuerdo a las trayectorias para obtener las formas deseadas. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -214,7 +214,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
             h3 Mesa de trabajo 
-            p Tiene la función de soportar el elemento de sujeción del material (prensa) y moverlo o desplazarlo de acuerdo a las trayectorias del recorrido para obtener, mediante el arranque de viruta de las herramientas, las formas de la pieza final; estos movimientos se dan gracias a que la mesa esta soportada por los carros de avance.        
+            p Tiene la función de soportar el elemento de sujeción del material (prensa) y moverlo o desplazarlo de acuerdo a las trayectorias del recorrido para obtener, mediante el arranque de viruta de las herramientas, las formas de la pieza final; estos movimientos se dan gracias a que la mesa está soportada por los carros de avance.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img18.png', alt='')
@@ -294,7 +294,7 @@
       .py-3.py-md-4(titulo="Sistema de corte por plasma ")
         .row
           .col-md-6.mb-4.mb-md-0            
-            p Se encarga de que, a través de la antorcha, fluya el plasma con las condiciones necesarias para que éste corte las láminas del material de trabajo. Este puede ser #[em Plasma Arc Cutting] o PAC convencional, PAC por oxigeno o PAC de alta definición.
+            p Se encarga de que, a través de la antorcha, fluya el plasma con las condiciones necesarias para que éste corte las láminas del material de trabajo. Este puede ser #[em Plasma Arc Cutting] o PAC convencional, PAC por oxígeno o PAC de alta definición.
         
           .col-md-6
             figure
@@ -326,7 +326,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(style="background-color:#138AF8")(data-aos="zoom-in-left")
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img29.png')})`}"
           )
@@ -336,7 +336,7 @@
       .col-lg-12
         p(data-aos="fade-right") Se observa los ejes y movimientos mediante los siguientes ejemplos.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #e8e8e8")
+    .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #E2DEE2")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.mb-5  
           .col-md-6.mb-4.mb-md-0

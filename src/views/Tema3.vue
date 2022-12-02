@@ -17,6 +17,13 @@
               img(src='@/assets/curso/temas/tema3/img1.svg', alt='')(data-aos="zoom-in")
     
     .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2
+          br
+          span #[em G40 Y G42 en torno]
+
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure
               img(src='@/assets/curso/temas/tema3/img2.svg', alt='')(data-aos="zoom-in")
@@ -63,11 +70,10 @@
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Montaje y compensación de herramientas en la mesa de corte con plasma CNC
-            p En la mesa de corte con plasma de control numérico computarizado CNC, la herramienta es la antorcha que se monta generalmente sobre el sistema de pórtico (Gantry) y no hay compensación de herramientas, pero si se ajusta la altura de la antorcha dependiendo del espesor del material a trabajar, su composición y la velocidad de avance del corte que se desea. 
+            p En la mesa de corte con plasma de control numérico computarizado CNC, la herramienta es la antorcha que se monta generalmente sobre el sistema de pórtico (#[em Gantry]) y no hay compensación de herramientas, pero si se ajusta la altura de la antorcha dependiendo del espesor del material a trabajar, su composición y la velocidad de avance del corte que se desea. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img7.png', alt='')        
-        
 
 </template>
 

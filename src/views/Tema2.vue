@@ -12,7 +12,11 @@
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
           .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img1.png')})`}")
           .bloque-texto-g__texto.p-4
-            p(data-aos="fade-down").mb-0 Tanto para la creación del programa CNC, como para la comprensión del funcionamiento de la máquina de control numérico computarizado CNC, es necesario entender muy bien cómo son los movimientos de los componentes de cada una de las máquinas CNC, los cuales se realizan teniendo en cuenta como referencia los ejes de un sistema cartesiano.
+            p Aunque el montaje del material y la definición del cero de trabajo pareciera una actividad no muy relevante en los procesos de mecanizado CNC, es necesario que el operador conozca muy bien las diferentes opciones y efectos que tendría tanto en la programación CNC, como en la ejecución de las diferentes operaciones con las máquinas de control numérico computarizado CNC. 
+            br
+            br
+            p El símbolo para representar este punto gráficamente es el que se muestra a continuación:
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -23,7 +27,7 @@
         figure
               img(src='@/assets/curso/temas/tema2/img2.png', alt='')
     
-    h3(data-aos="fade-right") Funciones del torno CNC
+    h3(data-aos="fade-right") Montaje del material y definición del cero de trabajo en el torno CNC
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p(data-aos="fade-right") El montaje y las características del cero de trabajo en el torno de control numérico computarizado CNC se analizan a continuación.
@@ -90,7 +94,7 @@
           .crd_hover_txt--body
             h3 Montaje
             br
-            p.mb-0 En el centro de mecanizado CNC el montaje del material es semejante al montaje en la fresadora CNC, la diferencia está en si se va a montar en un plato de sujeción, en este caso se tendría en cuenta las recomendaciones de montaje en un torno. 
+            p.mb-0 En el centro de mecanizado CNC el montaje del material es semejante al montaje en la fresadora CNC, la diferencia está en sí se va a montar en un plato de sujeción, en este caso se tendría en cuenta las recomendaciones de montaje en un torno. 
             br
             br
             br
