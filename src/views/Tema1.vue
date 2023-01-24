@@ -119,63 +119,63 @@
           .col-md-6.mb-4.mb-md-0
             h3 Monitor y panel de control 
             p Al igual que en el torno de control numérico computarizado CNC, es la parte de la fresadora con la que más interactúa el operador de la máquina CNC, ya que es allí donde se realizan las funciones de: programación, recepción e intercambio de archivos con los programas, visualización del estado de la máquina, de las funciones y operaciones que se están ejecutando, control de las partes y herramientas, así como los diferentes mensajes que estos envían durante la operación o simulación del mecanizado.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Motores
             p Generalmente no están a la vista del operario. Son los encargados de generar tanto el movimiento del husillo principal donde se transfiere al material de trabajo, así como a los diferentes carros que permiten el avance y movimientos de las herramientas, normalmente son servomotores o motores de alta potencia que se pueden controlar en su velocidad, potencia y sentido de giro, mediante un programa de computador.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img8.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Plato de sujeción 
-            p Es la parte del torno que tiene la función de sostener el material del trabajo mientras se le realiza el mecanizado. Puede tener tres o cuatro mordazas y ser autocentrante, o no. En los tornos CNC más avanzados, se permite realizar el apriete de manera automática mediante un clamp que funciona con aire o aceite, es decir, neumático o hidráulico, dependiendo de la arquitectura de la máquina CNC. 
-          .col-md-6
+            p Es la parte del torno que tiene la función de sostener el material del trabajo mientras se le realiza el mecanizado. Puede tener tres o cuatro mordazas y ser autocentrante, o no. En los tornos CNC más avanzados, se permite realizar el apriete de manera automática mediante un <i>clamp</i> que funciona con aire o aceite, es decir, neumático o hidráulico, dependiendo de la arquitectura de la máquina CNC. 
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img9.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Porta herramientas
             p Su función en el torno es la de sostener y disponer las herramientas de corte o buriles en el momento indicado en el programa, también permite, ya que está montada sobre los carros de desplazamiento, los movimientos de avance y velocidades necesarios para lograr arrancar la viruta al material y obtener las formas y acabados planeados para la pieza final; pueden tener la capacidad desde 4, 6, hasta 16 herramientas simultáneamente. 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img10.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Contrapunto
             p Es un elemento del torno con forma cónica ubicado justo al frente del plato de sujeción del material que gira sobre su eje alineado con el eje de giro del material, permite trabajar con materiales de longitud considerable eliminando el juego o movimiento oscilatorio que se genera al ponerlos a girar y aplicarles presión radial con el buril al arrancarle viruta.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Bancada o soporte
             p Es la columna vertebral del torno, tiene como función principal sostener y permitir el movimiento o desplazamiento longitudinal de los carros de avance, también es la parte que define el tamaño o capacidad del torno en cuanto a la longitud máxima del material de trabajo. 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img12.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Carros de avance
             p Son elementos similares a los rieles de un tren, es decir, permiten que sobre ellos se ubique el portaherramientas para ser movilizados longitudinalmente, transversalmente, y en forma oblicua durante el corte del material, siguiendo el desarrollo del programa en el #[em software] de fabricación asistido por computador.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img13.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Puertas
             p Un torno de #[b control numérico computarizado] CNC puede tener de acuerdo con su arquitectura o diseño varias puertas con la función de resguardar elementos limitando su acceso. Las principales son las puertas o guardas de seguridad, que usualmente son translúcidas y deben estar cerradas solamente durante la operación del torno y las puertas o guardas de acceso a motores o a componentes que requieren acceso periódico por ejemplo para el mantenimiento; estas generalmente tienen elementos como llaves que limitan para que solamente sean abiertas por la persona indicada.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img14.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Luces indicadoras
             p Generalmente están ubicadas en la parte superior de la máquina donde puedan observarse desde cualquier punto de la empresa, su función es poder identificar el estado de la máquina desde una distancia dentro del taller, es decir, si la máquina está ejecutando un programa, si presenta alguna novedad en su funcionamiento o si está suspendida o parada.
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img15.png', alt='')
 
