@@ -16,10 +16,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p(data-aos="fade-down").mb-0 Se debe tener en cuenta para una media de trabajo de 40 horas semanales, lo descrito a continuación:
+        p(data-aos="fade-down").mb-0 Para una media de trabajo de 40 horas semanales, deben tenerse en cuenta aspectos como:
     
     .tarjeta.tarjeta--verde.p-4.mb-4
-      LineaTiempoC.color-primario(text-small)
+      LineaTiempoC.color-primario
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 1")
           .col-md-6
             figure
@@ -52,7 +52,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade-left")
-          p Se deben explorar los demás recursos que se encuentran disponibles en este componente formativo, para hacerlo diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Operación de máquinas CNC para la fabricación de piezas',
     descripcionCurso:
-      'El presente componente instruye sobre la operación de las máquinas CNC para la fabricación de piezas, comenzando por las diferentes funciones, los ejes y movimientos de los componentes de las máquinas CNC y la simulación de los programas transferidos o creados en la máquina y culmina con el mantenimiento que se requiere para un óptimo funcionamiento y vida útil de la maquinaria.',
+      'El presente componente instruye sobre la operación de las máquinas CNC, para la fabricación de gran variedad de piezas; diferentes funciones, ejes y movimientos de los componentes de las máquinas CNC, la simulación de los programas transferidos o creados en la máquina y, finalmente, el mantenimiento que se requiere para un óptimo funcionamiento y vida útil de la maquinaria.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,28 +36,13 @@ export default {
         numero: '1',
         titulo: 'Operación del mecanizado CNC',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Funciones en las máquinas CNC',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Ejes y movimientos de las máquinas CNC',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Montaje de material y definición de cero de trabajo en las máquinas CNC',
+        titulo: 'Montaje de material y “cero de trabajo” en máquinas CNC',
         desarrolloContenidos: true,
       },
       {
@@ -73,26 +58,13 @@ export default {
         numero: '4',
         titulo: 'Transferencia de archivos a la máquina CNC',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Simulación en la máquina CNC',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Operación de la máquina CNC',
-            hash: 't_4_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Mantenimiento de la máquina CNC',
+        titulo:
+          'Mantenimiento de la máquina de control numérico computarizado CNC',
         desarrolloContenidos: true,
       },
     ],
@@ -138,7 +110,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Mecanizado CNC',
+      tema: 'Operación del mecanizado CNC',
       referencia:
         'Serrano, D. Mejía,. Rodríguez, F. (2012).  <em>Comprobación y optimización del programa CNC para el mecanizado por arranque de viruta</em>',
       tipo: 'E-Libro',
@@ -146,7 +118,7 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
     },
     {
-      tema: 'Seguridad Industrial',
+      tema: 'Operación del mecanizado CNC',
       referencia:
         'Giraldo, A. (2019). <em>Seguridad Industrial. Ecoe Ediciones</em>.',
       tipo: 'E-Libro',
@@ -154,9 +126,9 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB126454 ',
     },
     {
-      tema: 'Herramientas',
+      tema: 'Montaje y compensación de herramientas en la máquina CNC',
       referencia:
-        'Alarcon, M. (2018). <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
+        'Alarcón, M. (2018). <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
       tipo: 'Norma',
       link:
         'https://frrq.cvg.utn.edu.ar/pluginfile.php/23297/mod_resource/content/1/presentaci%C3%B3n2.pdf',

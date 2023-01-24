@@ -28,14 +28,14 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema4/img3.svg', alt='')
-        h3.text-center Las extensiones de archivo
+        h3.text-center Indicar las extensiones de archivo
         p
       .col-md.tarjeta.color1t.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema4/img4.svg', alt='')
-        h3.text-center Compatibilidad de los archivos que pueden recibir
+        h3.text-center Aportar compatibilidad de los archivos que pueden recibir
         p  
     
     .row.justify-content-center.align-items-center.mb-5
@@ -45,11 +45,7 @@
           .bloque-texto-g__texto.p-4
             p(data-aos="fade-down").mb-0 La mayoría de las máquinas permiten abrir los archivos creados en #[em softwares] de fabricación asistida por computador o CAM, estos generalmente son convertidos en #[b extensión *.NC] utilizados para maquinaria con control numérico. Se debe consultar siempre el manual de usuario de cada máquina.
 
-    separador
-
-    .row.justify-content-center.align-items-center
-      #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 4.1	 Simulación en la máquina CNC
+    h4(data-aos="zoom-in-left").my-5 Simulación en la máquina CNC
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
@@ -91,22 +87,18 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p Se puede ver un ejemplo del tema simulación en la máquina CNC en el siguiente enlace
+                  p.mb-0 Analice a profundidad un ejemplo de simulación en la máquina CNC, en el siguiente enlace.
                 .col.mb-3.mb-sm-0
                   .row.justify-content-center.mb-1
                     .col
                       a.boton.boton--b(:href="('https://www.youtube.com/watch?v=0FJmpbvFWkg')" target="_blank")
                         span(style="color:#000000")  Enlace web
                         i.fas.fa-link(style="color:#000000")                                     
-    separador
-
-    .row.justify-content-center.align-items-center
-      #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 4.2	 Operación de la máquina CNC
+    h4(data-aos="zoom-in-left").my-5 Operación de la máquina CNC
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-left") El siguiente video muestra el procedimiento que se debe realizar para la operación de las máquinas CNC.
+        p(data-aos="fade-left") El siguiente video muestra el procedimiento que se debe realizar para la operación de las máquinas CNC:
 
     row.justify-content-center.align-items-center.md-5   
       .col-lg-12(data-aos="fade-left")     

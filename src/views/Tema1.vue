@@ -12,7 +12,7 @@
           img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
       .col-lg-10
         p(data-aos="fade-right") Para comprender la operación de una máquina herramienta de control numérico computarizado CNC es necesario, inicialmente, tener una idea de cómo funcionan las máquinas convencionales, es decir las que no tienen los controles automáticos, con el fin de comprender mejor las funciones automáticas con las que se mecanizará la pieza proyectada.
-        p(data-aos="fade-right") También es importante conocer de la máquina herramienta CNC:
+        p(data-aos="fade-right") Igualmente, es de suma importancia conocer algunos aspectos cruciales sobre la máquina herramienta CNC como, por ejemplo: 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color1t.p-5
         .row.justify-content-center.mb-4
@@ -39,18 +39,15 @@
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-left")
           p En el manual del fabricante se encuentra toda la información técnica necesaria para poder ponerla en marcha y lograr mecanizar la pieza que se desea obtener, de acuerdo con los requerimientos plasmados en el plano técnico y traducidos al lenguaje CNC de la máquina, mediante el #[em software] de fabricación asistida por computador CAM.
-    Separador
-
-    .row.justify-content-center.align-items-center
-      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 1.1	 Funciones en las máquinas CNC
+    
+    h4(data-aos="zoom-in-left").my-5 Funciones en las máquinas CNC
     
     .row.justify-content-center.align-items-center.mb-5   
       .col-lg-10
         .row.justify-content-center.align-items-center.p-5.mb-5(style="background-color: #F8F5F3;border-radius: 31px;border:solid 3px #CFBDB0")
           .col-lg-8
             p(data-aos="zoom-in") Las funciones en las máquinas de control numérico computarizado CNC se dan, según las herramientas que sea necesario usar. Existen funciones específicas para el torno CNC, la fresadora CNC, el centro de mecanizado y la cortadora por plasma. 
-            p(data-aos="zoom-in") A continuación, se explican las características de estas herramientas:
+            p(data-aos="zoom-in") A continuación, se exponen las características de un torno de control numérico computarizado CNC:
           .col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img5.svg', alt='')
@@ -114,14 +111,14 @@
           p Las funciones en un torno de control numérico computarizado CNC están destinadas a lograr obtener la pieza generada por la revolución del material, mientras que se va logrando la forma final, a medida que se le arranca viruta al material mediante las herramientas de corte llamadas buriles.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        P(data-aos="fade-right") Las funciones del torno de control numérico computarizado CNC están relacionadas con sus partes y componentes que se describen a continuación:
+        P(data-aos="fade-right") Las funciones del torno de control numérico computarizado CNC, están relacionadas con sus partes y componentes, los cuales se describen a continuación:
     
     .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #E2DEE2")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.mb-5  
           .col-md-6.mb-4.mb-md-0
             h3 Monitor y panel de control 
-            p Es la parte del torno con la que más interactúa el operador de la máquina de control numérico computarizado CNC, ya que es allí donde se realizan las funciones de: programación, recepción e intercambio de archivos con los programas, visualización del estado de la máquina, de las funciones y operaciones que se están ejecutando, control de las partes y herramientas, así como los diferentes mensajes que estos envían durante la operación o simulación del mecanizado.
+            p Al igual que en el torno de control numérico computarizado CNC, es la parte de la fresadora con la que más interactúa el operador de la máquina CNC, ya que es allí donde se realizan las funciones de: programación, recepción e intercambio de archivos con los programas, visualización del estado de la máquina, de las funciones y operaciones que se están ejecutando, control de las partes y herramientas, así como los diferentes mensajes que estos envían durante la operación o simulación del mecanizado.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='')
@@ -135,7 +132,7 @@
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Plato de sujeción 
-            p Es la parte del torno que va a tener la función de sostener el material del trabajo mientras se le realiza el mecanizado, puede tener tres o cuatro mordazas y ser autocentrante o no, también en los tornos CNC más avanzados permite realizar el apriete de manera automática mediante un clamp que funciona con aire o aceite, es decir, neumático o hidráulico dependiendo de la arquitectura de la máquina CNC. 
+            p Es la parte del torno que tiene la función de sostener el material del trabajo mientras se le realiza el mecanizado. Puede tener tres o cuatro mordazas y ser autocentrante, o no. En los tornos CNC más avanzados, se permite realizar el apriete de manera automática mediante un clamp que funciona con aire o aceite, es decir, neumático o hidráulico, dependiendo de la arquitectura de la máquina CNC. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img9.png', alt='')
@@ -187,7 +184,7 @@
         h3(data-aos="fade-right") Funciones de la fresadora CNC
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") En la siguiente infografía se observan las partes características de una #[b fresadora CNC]
+        p(data-aos="fade-right") El siguiente esquema expone las partes características de una #[b fresadora CNC]:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
@@ -202,11 +199,11 @@
         p(data-aos="fade-right") A continuación, se describen las funciones relacionadas con las partes y componentes de la fresadora de control numérico computarizado CNC:
     
     .tarjeta.tarjeta--verde.p-4.mb-4
-      LineaTiempoC.color-primario(text-small)
+      LineaTiempoC.color-primario
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
             h3 Cabezal
-            p El cabezal es la parte de la fresadora que se encarga de recibir la transmisión de la fuerza y el movimiento rotacional del motor principal y llevarlos a las herramientas de corte, en este caso las fresas, para que estas, gracias al material duro y a sus formas o geometrías, puedan arrancar la viruta al material de trabajo y así obtener la forma de la pieza final. Generalmente se encuentra en la parte superior de la máquina.        
+            p El cabezal es la parte de la fresadora que se encarga de recibir la transmisión de la fuerza y el movimiento rotacional del motor principal y llevarlos a las herramientas de corte, en este caso, las fresas, las cuales, gracias al material duro y a sus formas o geometrías, pueden arrancar la viruta al material de trabajo y, de esta manera, obtener la forma de la pieza final. Generalmente, el cabezal se encuentra en la parte superior de la máquina.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img17.png', alt='')
@@ -318,11 +315,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img27.png', alt='')
 
-    separador
-
-    .row.justify-content-center.align-items-center
-      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 1.2	 Ejes y movimientos de las máquinas CNC
+    h4(data-aos="zoom-in-left").my-5 Ejes y movimientos de las máquinas CNC
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -334,7 +327,7 @@
             p(data-aos="fade-down").mb-0 Tanto para la creación del programa CNC, como para la comprensión del funcionamiento de la máquina de control numérico computarizado CNC, es necesario entender muy bien cómo son los movimientos de los componentes de cada una de las máquinas CNC, los cuales se realizan teniendo en cuenta como referencia los ejes de un sistema cartesiano.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") Se observa los ejes y movimientos mediante los siguientes ejemplos.
+        p(data-aos="fade-right") Comprendamos el funcionamiento de los ejes y sus movimientos, mediante las siguientes demostraciones:
 
     .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #E2DEE2")
       SlyderA(tipo="b")

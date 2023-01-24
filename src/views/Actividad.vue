@@ -11,8 +11,10 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Operación de máquinas CNC para la fabricación de piezas
-        p.mb-4 La siguiente actividad didáctica le permite comprobar algunos conocimientos adquiridos en el estudio del componente formativo. A continuación, encontrará conceptos y definiciones que debe relacionar. 
-        p.mb-4 Mucha suerte en el proceso de aprendizaje.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+
+        p.mb-4 De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

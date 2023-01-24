@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Montaje de material y definición de cero de trabajo en las máquinas CNC
+      h1 Montaje de material y “cero de trabajo” en máquinas CNC
   
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -30,7 +30,7 @@
     h3(data-aos="fade-right") Montaje del material y definición del cero de trabajo en el torno CNC
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El montaje y las características del cero de trabajo en el torno de control numérico computarizado CNC se analizan a continuación.
+        p(data-aos="fade-right") A continuación, se analizan el montaje y las características del cero de trabajo en el torno de control numérico computarizado CNC:
     
     .bg--img_03.mb-4
       .row.justify-content-center
@@ -69,15 +69,14 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Montaje")            
             p En la fresadora de control numérico computarizado CNC el montaje del material de trabajo se realiza mediante la prensa soportada en la mesa longitudinal.              
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Dimensiones del material")
-            h5 Dimensiones del material
+          .tarjeta.clr-paleYellow.p-4(titulo="Dimensiones<br> del material")
+
             p Es importante tener en cuenta el espesor o la altura del material para que, a la hora de mecanizar, las herramientas o fresas no vayan a cortar ni la prensa ni la mesa. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Cero de trabajo")            
             p Para definir el cero de trabajo en la fresadora CNC se debe tener cuenta la forma de la pieza.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Operaciones con las que se va a mecanizar")
-            h5 Operaciones con las que se va a mecanizar
+          .tarjeta.clr-paleYellow.p-4(titulo="Operaciones con<br> las que se va<br> a mecanizar")
             p Se deben tener en cuenta las operaciones con las que se planea mecanizar, ya que el cero de trabajo en esta lo puede ubicar el operador en cualquier parte del material de trabajo, eso sí, desde el momento de crear el programa.
 
     h3(data-aos="fade-right") Montaje del material y definición del cero de trabajo en el centro de mecanizado CNC
@@ -159,7 +158,7 @@
       .py-4.py-md-5(titulo="Automatización" :icono="require('@/assets/curso/temas/tema2/img8.svg')")
         .row
           .col-md-6
-            p En algunas marcas y modelos, la máquina generalmente distribuye los cortes y el operario, a su consideración, los puede modificar o no.
+            p En algunas marcas y modelos, la máquina suele distribuir los cortes; el operario, a su consideración, los puede modificar, o no.
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema2/img11.png', alt='Texto que describa la imagen')          

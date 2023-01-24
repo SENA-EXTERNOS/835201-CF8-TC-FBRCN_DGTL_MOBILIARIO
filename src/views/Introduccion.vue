@@ -14,8 +14,8 @@
         figure
           img(src='@/assets/curso/temas/adorno1.png', alt='')
       .col-lg-6(style="display: flex;align-content: center;flex-wrap: wrap;")
-        p(data-aos="fade-left") Bienvenido apreciado aprendiz a este componente formativo en el que aprenderá sobre las diferentes funciones, los ejes y movimientos de los componentes de las máquinas CNC y sobre el montaje del material de trabajo, además de la importancia de la definición del “cero de trabajo” y “cero de máquina”. También se tratará el tema del montaje de las herramientas y su compensación, la transferencia de los archivos con los programas y su simulación, además de la operación de la máquina en la ejecución de los programas. Por último, se aborda el mantenimiento de las máquinas CNC.
-        p(data-aos="fade-left") En el siguiente video podrá tener una introducción de cada uno de los temas mencionados:
+        p(data-aos="fade-left") Apreciado aprendiz, bienvenido a este componente formativo, donde aprenderá sobre las diferentes funciones, los ejes y movimientos de los componentes de las máquinas CNC y sobre el montaje del material de trabajo. Podrá cualificarse y fortalecer sus competencias en lo relacionado con el concepto e importancia de “cero de trabajo” y “cero de máquina”. Adquiera experticia en montaje de las herramientas y su compensación, transferencia de archivos con los programas y su simulación, operación de la máquina en la ejecución de los programas y mantenimiento de las máquinas CNC.
+        p(data-aos="fade-left") En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
       .col-lg-5
         figure

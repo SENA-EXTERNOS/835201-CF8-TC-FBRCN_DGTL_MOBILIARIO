@@ -21,7 +21,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2
           br
-          span #[em G40 Y G42 en torno]
+          span #[em Trayectoria de mecanizado]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -33,7 +33,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") A continuación, se observa la compensación en las diferentes herramientas.
+        p(data-aos="fade-right") Continuemos con este tema, analizando la compensación en las diferentes herramientas:
     
     .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #e8e8e8")
       SlyderA(tipo="b")
@@ -66,7 +66,7 @@
             p En el centro de mecanizado de control numérico computarizado CNC el montaje de las herramientas se hace de la misma manera que en una fresadora CNC mediante el cono ISO y en el carrusel de herramientas, igualmente para la compensación radial se procede con los códigos G40, G41 y G42.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img6.png', alt='')
+              img(src='@/assets/curso/temas/tema3/1.png', alt='')
         .row.justify-content-center.align-items-center.mb-5          
           .col-md-6.mb-4.mb-md-0
             h3 Montaje y compensación de herramientas en la mesa de corte con plasma CNC
