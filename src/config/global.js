@@ -131,7 +131,7 @@ export default {
         'Alarcón, M. (2018). <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
       tipo: 'Norma',
       link:
-        'https://frrq.cvg.utn.edu.ar/pluginfile.php/23297/mod_resource/content/1/presentaci%C3%B3n2.pdf',
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/9538/mod_resource/content/1/presentaci%C3%B3n2.pdf',
     },
   ],
   glosario: [
@@ -191,7 +191,7 @@ export default {
       referencia:
         'Alarcón, M. (2018) <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
       link:
-        'https://frrq.cvg.utn.edu.ar/pluginfile.php/23297/mod_resource/content/1/presentaci%C3%B3n2.pdf ',
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/9538/mod_resource/content/1/presentaci%C3%B3n2.pdf',
     },
     {
       referencia:

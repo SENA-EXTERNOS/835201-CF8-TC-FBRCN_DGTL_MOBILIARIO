@@ -60,11 +60,11 @@
       .col-lg-12
         p(data-aos="fade-right") Algunas consideraciones a tener en cuenta para el montaje del material y la definición del cero de trabajo en la fresadora de control numérico computarizado CNC son:
     
-    .row.justify-content-center.align-items-center.mb-5      
-      .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
+    .row.justify-content-center.mb-5      
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/tema2/img4.png", alt="alt", style="width:450px;").m-auto 
-      .col-lg-8
+      .col-lg-9
         TabsA.color-acento-botones.mb-5
           .tarjeta.clr-paleYellow.p-4(titulo="Montaje")            
             p En la fresadora de control numérico computarizado CNC el montaje del material de trabajo se realiza mediante la prensa soportada en la mesa longitudinal.              
