@@ -47,7 +47,7 @@
 
     h4(data-aos="zoom-in-left").my-5 Simulación en la máquina CNC
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .row.justify-content-center.mb-5
           .col-lg-12
@@ -93,8 +93,9 @@
                     .col
                       a.boton.boton--b(:href="('https://www.youtube.com/watch?v=0FJmpbvFWkg')" target="_blank")
                         span(style="color:#000000")  Enlace web
-                        i.fas.fa-link(style="color:#000000")                                     
-    h4(data-aos="zoom-in-left").my-5 Operación de la máquina CNC
+                        i.fas.fa-link(style="color:#000000")           
+  
+    h4(data-aos="zoom-in-left").mb-5 Operación de la máquina CNC
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
