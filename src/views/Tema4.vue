@@ -78,7 +78,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img6.png', alt='')
 
-    .row.justify-content-center
+    //.row.justify-content-center
       .col-lg-10
         .tarjeta.p-3.mb-5.color-primario.bg-gradient
           .row.justify-content-around.align-items-center
