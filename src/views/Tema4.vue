@@ -49,11 +49,11 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-4
           .col-lg-12
             p(data-aos="fade-left") La mayoría de las máquinas CNC permiten realizar una simulación de las instrucciones y códigos del programa que se desea correr antes de ser ejecutado, de ser necesario se puede modificar. Cada marca puede diferir en la forma de hacerlo. 
             p(data-aos="fade-left") Por ejemplo, en el centro de mecanizado vertical CNC HAAS VF2, se pueden ejecutar las siguientes acciones:
-        .row.justify-content-center.mb-5          
+        .row.justify-content-center   
           .col-lg-12
             .row.justify-content-center.align-items-center.p-3.mb-5(style="background-color: #F1FCF3;border-radius: 31px;border:solid 3px #A2E6B0")
               .col-lg-12.cuadroverde
