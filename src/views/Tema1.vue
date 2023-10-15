@@ -313,7 +313,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img27.png', alt='')
+              img(src='@/assets/curso/temas/tema1/img27.svg', alt='')
 
     h4(data-aos="zoom-in-left").my-5 Ejes y movimientos de las máquinas CNC
 
