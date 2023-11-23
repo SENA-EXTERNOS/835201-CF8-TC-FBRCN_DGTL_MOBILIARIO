@@ -118,7 +118,7 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42599',
     },
     {
-      tema: 'Operación del mecanizado CNC',
+      tema: 'Seguridad Industrial',
       referencia:
         'Giraldo, A. (2019). <em>Seguridad Industrial. Ecoe Ediciones</em>.',
       tipo: 'E-Libro',
@@ -126,7 +126,7 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB126454 ',
     },
     {
-      tema: 'Montaje y compensación de herramientas en la máquina CNC',
+      tema: 'Herramientas',
       referencia:
         'Alarcón, M. (2018). <em>Herramientas de corte, código ISO 1832 para insertos de corte</em>.',
       tipo: 'Norma',
